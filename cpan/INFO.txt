@@ -1,0 +1,5 @@
+- Este modulo obtiene las dependencias instaladas en el sistema con el getDependencies.pl
+- Una vez se corre este script genera una log en la carpeta /tmp/ con el dia que se corrio
+- Despues de tener este .log corremos el script installDependencies.pl el cual recorera linea por linea el .log 
+que se creo con el script anterior instentado instalar todas las dependencias y generando otro .log con el nombre del sistema
+y la fecha con la que se corrio el script en este nuevo .log se guardara la salida de error de la consola al intentar instalar las dependencias.
